@@ -18,7 +18,7 @@ Please store any assets in our google drive, since github have file size limit.
     - [ ] Missing value imputation
     - [ ] Scale numerical features
     - [ ] Encode categorical features
-    - [ ] Get user and game embedding from collaborative filtering
+    - [x] Get user and game embedding from collaborative filtering
 - [ ] Modelling
     - [ ] Neural Network
     - [ ] XGBoost
@@ -50,6 +50,8 @@ Please store any assets in our google drive, since github have file size limit.
   - 📄 test_raw.pkl                     # Non-clean test set
   - 📄 train_feature_engineered.pkl     # Train set with feature engineering
   - 📄 test_feature_engineered.pkl      # Test set with feature engineering
+  - 📄 train_CF.pkl                     # Train set with feature engineering and embedding
+  - 📄 test_CF.pkl                      # Test set with feature engineering and embedding
 
 📂 data_collection
 - 📂 RAWG
@@ -65,6 +67,7 @@ Please store any assets in our google drive, since github have file size limit.
 
 📂 data_preprocessing
 - 📜 feature_engineering.ipynb          # (train_raw.pkl, test_raw.pkl) -> (train_feature_engineered.pkl, test_feature_engineered.pkl)
+- 📜 collaborative_filtering.ipynb      # (train_feature_engineered.pkl, test_feature_engineered.pkl) -> (train_CF.pkl, test_CF.pkl)
 
 📄 requirements.txt                     # Python library version
 ```
