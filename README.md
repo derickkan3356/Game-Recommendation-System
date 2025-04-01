@@ -13,11 +13,11 @@ Please store any assets in our google drive, since github have file size limit.
     - [x] SteamSpy
     - [x] SteamWeb
     - [x] Combine data
-- [ ] Data Preprocessing
+- [x] Data Preprocessing
     - [x] Feature engineering
     - [x] Missing value imputation
-    - [ ] Scale numerical features
-    - [ ] Encode categorical features
+    - [x] Scale numerical features
+    - [x] Encode categorical features
     - [x] Get user and game embedding from collaborative filtering
 - [ ] Modelling
     - [ ] Neural Network
@@ -52,6 +52,8 @@ Please store any assets in our google drive, since github have file size limit.
   - 📄 test_feature_engineered.pkl      # Test set with feature engineering
   - 📄 train_impute.pkl                 # Train set with feature engineering and missing imputation
   - 📄 test_impute.pkl                  # Test set with feature engineering and missing imputation
+  - 📄 train_scaled.pkl                 # Train set with feature engineering, missing imputation, and numerical scaling
+  - 📄 test_scaled.pkl                  # Test set with feature engineering, missing imputation, and numerical scaling
   - 📄 train_CF.pkl                     # Train set with feature engineering and embedding
   - 📄 test_CF.pkl                      # Test set with feature engineering and embedding
 
@@ -70,6 +72,7 @@ Please store any assets in our google drive, since github have file size limit.
 📂 data_preprocessing
 - 📜 feature_engineering.ipynb          # (train_raw.pkl, test_raw.pkl) -> (train_feature_engineered.pkl, test_feature_engineered.pkl)
 - 📜 Missing_value_imputation.ipynb     # (train_feature_engineered.pkl, test_feature_engineered.pkl) -> (train_impute.pkl, test_impute.pkl)
+- 📜 scaling_numerical_features.ipynb   # (train_impute.pkl, test_impute.pkl) -> (train_scaled.pkl, test_scaled.pkl)
 - 📜 collaborative_filtering.ipynb      # (train_feature_engineered.pkl, test_feature_engineered.pkl) -> (train_CF.pkl, test_CF.pkl)
 
 📄 requirements.txt                     # Python library version
