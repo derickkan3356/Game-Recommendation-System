@@ -79,6 +79,9 @@ Please store any assets in our google drive, since github have file size limit.
 
 📂 modeling
 - 📜 neural_network.ipynb               # (train_ready.pkl, test_ready.pkl) -> PyTorch_trained_model.pth
+- 📜 XGBoost.ipynb                      # (train_raw.pkl, test_raw.pkl) -> fitted_transformers.pkl
+- 📄 PyTorch_trained_model.pth          # Trained neural network
+- 📄 fitted_transformers.pkl            # Trained XGBoost
 
 📄 requirements.txt                     # Python library version
 ```
