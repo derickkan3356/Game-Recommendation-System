@@ -75,7 +75,8 @@ Please store any assets in our google drive, since github have file size limit.
 - 📜 feature_engineering.ipynb          # (train_raw.pkl, test_raw.pkl) -> (train_feature_engineered.pkl, test_feature_engineered.pkl)
 - 📜 Missing_value_imputation.ipynb     # (train_feature_engineered.pkl, test_feature_engineered.pkl) -> (train_impute.pkl, test_impute.pkl)
 - 📜 scaling_numerical_features.ipynb   # (train_impute.pkl, test_impute.pkl) -> (train_scaled.pkl, test_scaled.pkl)
-- 📜 collaborative_filtering.ipynb      # (train_scaled.pkl, test_scaled.pkl) -> (train_ready.pkl, test_ready.pkl)
+- 📜 collaborative_filtering.ipynb      # (train_scaled.pkl, test_scaled.pkl) -> (train_ready.pkl, test_ready.pkl, trained_ALS.pkl)
+- 📄 trained_ALS.pkl                    # Trained ALS
 
 📂 modeling
 - 📜 neural_network.ipynb               # (train_ready.pkl, test_ready.pkl) -> PyTorch_trained_model.pth
