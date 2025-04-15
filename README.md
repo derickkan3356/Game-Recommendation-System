@@ -79,9 +79,11 @@ Please store any assets in our google drive, since github have file size limit.
 - 📄 trained_ALS.pkl                    # Trained ALS
 
 📂 modeling
-- 📜 neural_network.ipynb               # (train_ready.pkl, test_ready.pkl) -> PyTorch_trained_model.pth
+- 📜 neural_network.ipynb               # (train_ready.pkl, test_ready.pkl) -> (PyTorch_trained_model.pth, PyTorch_model_weights.pth, PyTorch_model_hyperparameters.json)
 - 📜 XGBoost.ipynb                      # (train_raw.pkl, test_raw.pkl) -> fitted_transformers.pkl
-- 📄 PyTorch_trained_model.pth          # Trained neural network
+- 📄 PyTorch_trained_model.pth          # Trained neural network full model
+- 📄 PyTorch_model_weights.pth          # Trained neural network weight only
+- 📄 PyTorch_model_hyperparameters.json # Trained neural network hyperparameter only
 - 📄 fitted_transformers.pkl            # Trained XGBoost
 
 📂 visualization

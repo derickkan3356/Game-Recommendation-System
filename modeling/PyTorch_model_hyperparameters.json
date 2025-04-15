@@ -1,0 +1,1 @@
+{"embedding_dim": 8, "num_layers": 3, "hidden_sizes": [27, 104, 60], "dropout_rate": 0.29356448275140334, "learning_rate": 0.018285007457633302}
