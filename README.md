@@ -19,10 +19,10 @@ Please store any assets in our google drive, since github have file size limit.
     - [x] Scale numerical features
     - [x] Encode categorical features
     - [x] Get user and game embedding from collaborative filtering
-- [ ] Modelling
-    - [ ] Neural Network
-    - [ ] XGBoost
-    - [ ] Evaluation and compare performance
+- [x] Modelling
+    - [x] Neural Network
+    - [x] XGBoost
+    - [x] Evaluation and compare performance
 - [ ] Deployment
     - [ ] Set up database
     - [ ] Front-end UI design
@@ -88,6 +88,9 @@ Please store any assets in our google drive, since github have file size limit.
 
 📂 visualization
 - 📜 Visualization.ipynb
+
+📂 deployment_pipeline
+- 📜prediction_pipeline.py              # pipeline for predicting games for a user
 
 📄 requirements.txt                     # Python library version
 ```
