@@ -1,0 +1,36 @@
+# Git files
+.git/
+.gitignore
+
+# Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Local config/secrets
+.streamlit/secrets.toml
+.streamlit/config.toml # Exclude if local only
+
+# Local data/model files (loaded from S3)
+*.csv
+*.pkl
+*.json
+*.pth
+/assets/
+/data_collection/
+/data_preprocessing/
+/modeling/
+*.ipynb # Exclude notebooks
+*.py # Exclude other python scripts unless needed, like create_lookup.py
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+*.code-workspace

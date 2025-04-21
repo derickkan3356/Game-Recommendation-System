@@ -2,7 +2,7 @@
 
 Please run `pip install -r ..\requirements.txt` to synchronize our python library version.
 
-Whenever a new library is installed or updated, please run `pip freeze > ..\requirements.txt` to update the requirements file.
+Whenever a new library is installed or updated, please run `pip freeze > requirements.txt` to update the requirements file.
 
 Please store any assets in our google drive, since github have file size limit.
 
