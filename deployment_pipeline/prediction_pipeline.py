@@ -6,8 +6,6 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
 import torch.nn.functional as F
-import cProfile
-import pstats
 import json
 
 # ---------------------------
@@ -494,7 +492,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    #cProfile.run('main()', 'profile_output.prof')
-    #stats = pstats.Stats('profile_output.prof')
-    #stats.sort_stats('tottime').print_stats('prediction_pipeline.py')
