@@ -25,8 +25,6 @@ ENV STREAMLIT_SERVER_HEADLESS=true
 ENV STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=false
 
 # Run app.py when the container launches using Streamlit
-# Use --server.port $PORT because Cloud Run expects the app to listen on the port specified by the PORT env var (usually 8080)
-# Use --server.headless true as Cloud Run doesn't have a browser GUI.
-# CMD ["streamlit", "run", "app.py", "--server.port", "8080", "--server.headless", "true"]
+
 
 CMD ["streamlit", "run", "app.py", "--server.port", "8080", "--server.headless", "true", "--server.fileWatcherType", "none"]
