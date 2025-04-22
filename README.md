@@ -5,7 +5,7 @@ It fuses **implicit interactions** (play‑time & achievements) with **rich meta
 
 **Try the live demo:** <https://game-rec-app-team-27-87458525975.us-east1.run.app/>
 
-**Check out the full project report:** <>
+**Check out the full project report:** <https://drive.google.com/file/d/1wrTZfcbvKhgkW-Cin8upVqxeLIFxYDRU/view?usp=sharing>
 
 ## Features
 | Stage | Highlights |
@@ -59,7 +59,6 @@ For assets, please navigate to this [google drive](https://drive.google.com/driv
 📂 deployment_pipeline
 - 📜 prediction_pipeline.py             # Pipeline for predicting games for a user
 - 📜 app.py                             # Front-end UI
-- 📜 demo_app.py
 - 📜 Dockerfile
 - 📜 preprocess_data.py
 
