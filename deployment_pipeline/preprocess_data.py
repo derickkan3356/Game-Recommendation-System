@@ -9,7 +9,7 @@ import traceback
 # Configuration & Path Setup
 # ==============================================================================
 
-# Assume this script lives in a subdirectory (e.g., 'scripts') one level below the project root
+
 # Calculate paths relative to the project root directory
 try:
     SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
